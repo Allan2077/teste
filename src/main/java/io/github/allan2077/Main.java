@@ -16,9 +16,9 @@ public class Main {
 
     public static void main(String args[]){
         List<Batata> batatats = Arrays.asList(new Batata(1), new Batata(2));
-
         for(Batata b : batatats){
             System.out.println(b.valor);
+            String a = "";
         }
     }
 }
